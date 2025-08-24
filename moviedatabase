@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insert Movie</title>
+</head>
+<body>
+    <h2>Enter Movie Details</h2>
+    <form action="insert.php" method="POST">
+        <label>Movie Name:</label><br>
+        <input type="text" name="moviename" maxlength="30" required><br><br>
+
+        <label>Director:</label><br>
+        <input type="text" name="moviedirector" maxlength="40" required><br><br>
+
+        <label>Release Date:</label><br>
+        <input type="text" name="moviereleasedate" maxlength="10" placeholder="YYYY-MM-DD" required><br><br>
+
+        <label>Review:</label><br>
+        <input type="text" name="moviereview" maxlength="40"><br><br>
+
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+</html>
